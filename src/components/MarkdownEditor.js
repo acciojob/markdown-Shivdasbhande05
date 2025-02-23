@@ -6,7 +6,7 @@ const MarkdownEditor = () => {
   useEffect(() => {}, [markdown]);
 
   return (
-    <div>
+    <div className="editor-container">
       <textarea
         className="textArea"
         value={markdown}
