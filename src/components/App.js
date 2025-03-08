@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="app">
       <h1>Markdown Editior</h1>
-      <MarkdownEditor></MarkdownEditor>
+      <MarkdownEditor/>
     </div>
   );
 }
