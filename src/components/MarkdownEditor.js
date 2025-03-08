@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ReactMarkdown from "react-markdown";
+import Markdown from "react-markdown";
 
 const MarkdownEditor = () => {
   const [markdown, setMarkdown] = useState("");
@@ -14,7 +14,7 @@ const MarkdownEditor = () => {
         placeholder="Type Markdown Here...."
       />
       <div className="preview">
-        <ReactMarkdown>{markdown}</ReactMarkdown>
+        <Markdown>{markdown}</Markdown>
       </div>
     </div>
   );
